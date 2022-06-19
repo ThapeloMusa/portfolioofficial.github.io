@@ -1,3 +1,5 @@
+# Deployed Version of the react app (https://soft-semifreddo-c1a489.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
