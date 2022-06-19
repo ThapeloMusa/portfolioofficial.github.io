@@ -6,11 +6,14 @@ This project was bootstrapped with [Create React App]
 To create the react app this command was used: 
 ##npx/npm create-react-app my-app
 
-Prior to that: #npm and #npx was installed using the Terminal/cmd command prompt afther installing Node.js
+Prior to that installed using the Terminal/cmd : 
+##npm 
+##npx 
 
 all the dependencies and particles was installed also as bootstrap, which was used for customisation
 
-The tools was updated using this Command: #npm install react-scripts@latest
+The tools was updated using this Command: 
+#npm install react-scripts@latest
 
 
 
