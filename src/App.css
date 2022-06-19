@@ -1,0 +1,197 @@
+/*-----MENU LINKS-----*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255,255,255,0,);
+  --primary-red: #ef4035;
+
+  --primary-hover-red: #adb5bd;
+
+
+}
+body {
+font-family: "Roboto Condesed", sans-serif;
+}
+
+.row h4{
+color: #f9ab00;
+font: bolder;
+font-size: 2ch;
+font-family: 'Courier New', Courier, monospace;
+
+}
+nav a.nav-link{
+/*font-weight: 500;*/
+
+font-size: .8rem;
+letter-spacing: 0.0375rem;
+cursor: pointer;
+
+
+}
+
+
+nav ul li{
+
+  
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a{
+  margin-right: 0.75rem;
+  margin-left: 3.2rem;
+  padding-left: 0;
+  color:var(--primary-orange) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-brand{
+  
+  font-size: 3rem;
+  font: bolder;
+  max-width: 17.25rem;
+  padding: 6 !important;
+  height: 2.5rem !important;
+
+}
+
+
+@media(max-width: 768px){
+  .navbar-brand{
+    width: 7rem;
+  }
+}
+
+
+.navbar-nav> a.active, .navbar-nav > li>a.active:focus{
+  
+  border-top: 0.1875rem solid var(--primary-white);
+}
+.navbar-nav > li > a:hover{
+
+  border-top: 0.1875rem solid var(--primary-orange);
+  color: var(--primary-orange);
+  transition: .2s ease-in-out;
+}
+
+/*----------------------Header----------------------*/
+.main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condesed", sans-serif;
+ 
+ }
+ .main-info h1 {
+
+  color: var(--primary-white);
+  text-transform: uppercase;
+}
+
+
+.header-wraper{
+  position:relative;
+  background: url(modern-lamp-books-desk-white-wall-background_495423-1489.webp) no-repeat;
+  background-size:cover;
+  background-position: center;
+  height: 90vh;
+
+}
+/*.main-info{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ font-family: "Roboto Condesed", sans-serif;
+
+}
+
+.main-info h1 {
+
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}*/
+
+/*-------------------------TYPED--------------------*/
+.typed-text{
+  font-size: 2rem;
+  color: var(--primary-dark);
+}
+@media(max-width: 768px){
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text{
+    font-size: 1.3rem !important;
+  }
+}
+/*-------------------------Header MAIN OFFER BTN--------------------*/
+.btn-main-offer{
+border: 1px solid var(--primary-orange);
+text-transform: uppercase;
+border-radius: 2rem;
+padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+color: var(--primary-dark);
+margin: 2rem;
+}
+
+.btn-main-offer:hover{
+
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
+
+.text-center h3{
+  color: #ffc800;
+}
+
+.text-center h2{
+  color: var(--primary-dark);
+  font-style: inherit;
+  margin-top: 5rem;
+}
+
+.container h2{
+  color: var(--primary-dark);
+  font-family: inherit;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  
+
+
+}
+
+.row p{
+  margin-bottom: 6rem;
+  color: var(--primary-white);
+  margin-bottom: 13rem;
+}
+
+.collapse{
+  margin-left: 12rem;
+  
+}
+
+.btn-main{
+  border: 1px solid var(--primary-orange);
+  text-transform: uppercase;
+  border-radius: 2rem;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-dark);
+  margin: 2rem;
+  position: 0;
+  margin-left: 8rem;
+  margin-bottom: 6rem;
+  }

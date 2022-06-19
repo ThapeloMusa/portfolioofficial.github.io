@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23dafb1d.css",
+    "main.js": "/static/js/main.547dbee0.js",
+    "static/js/787.202b8111.chunk.js": "/static/js/787.202b8111.chunk.js",
+    "static/media/modern-lamp-books-desk-white-wall-background_495423-1489.webp": "/static/media/modern-lamp-books-desk-white-wall-background_495423-1489.64fde9037825c9741df0.webp",
+    "index.html": "/index.html",
+    "main.23dafb1d.css.map": "/static/css/main.23dafb1d.css.map",
+    "main.547dbee0.js.map": "/static/js/main.547dbee0.js.map",
+    "787.202b8111.chunk.js.map": "/static/js/787.202b8111.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23dafb1d.css",
+    "static/js/main.547dbee0.js"
+  ]
+}
