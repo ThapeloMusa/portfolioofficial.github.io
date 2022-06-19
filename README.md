@@ -4,9 +4,11 @@
 
 This project was bootstrapped with [Create React App]
 To create the react app this command was used: 
+
 ##npx/npm create-react-app my-app
 
 Prior to that installed using the Terminal/cmd : 
+
 ##npm 
 ##npx 
 
